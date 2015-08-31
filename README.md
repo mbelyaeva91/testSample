@@ -6,6 +6,7 @@ This project was written in Java and imported from intelliJ IDEA. Tests are run 
 General file and folder structure:
 #### Pages:	
   1. PageOne.java. 2. PageTwo.java 3. PageThree.java
+
 #### Test:
   1. TestKitOne.java
 
