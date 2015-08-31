@@ -5,7 +5,7 @@ This project was written in Java and imported from intelliJ IDEA. Tests are run 
 ### Structure
 General file and folder structure:
 Pages:
-PageOne.java.  All string constants used in tests content (group names, post titles, etc.) can be found and changed in config.yml.
+PageOne.java. 
 PageTwo.java
 PageThree.java
 Test:
