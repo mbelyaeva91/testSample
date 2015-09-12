@@ -24,9 +24,9 @@ public class TestKitOne {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "iOS");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8.4.0");
-        capabilities.setCapability(MobileCapabilityType.UDID, "c37901c26b0748d3b85d7641d3066adb99a60698");
+        capabilities.setCapability(MobileCapabilityType.UDID, " ");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 5");
-        String app = "/Users/a123/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos/bloomfire.app";
+        String app = "/Users/a123/Library/Developer/Xcode/DerivedData/Build/Products/Debug-iphoneos/sample.app";
         capabilities.setCapability(MobileCapabilityType.APP, app);
         driver = new IOSDriver<IOSElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
     }
